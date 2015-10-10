@@ -1,0 +1,29 @@
+<nav id="nav">
+    <ul>
+        <li>
+            <a class="icon fa-home" href="/index.html"><span>Introduction</span></a>
+        </li>
+        <li>
+            <a class="icon fa-stethoscope" href="/therapies.html"><span>Thérapies</span></a>
+            <ul>
+                {% for therapie in site.therapie %}
+                    <li><a href="/therapies.html#{{ therapie.title | slugify }}" >{{ therapie.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </li>
+        <li>
+            <a class="icon fa-file-text-o" href="/formations.html"><span>Formations</span></a>
+            <ul>
+                {% for formation in site.formation %}
+                    <li><a href="/formations.html#{{ formation.title | slugify }}" >{{ formation.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </li>
+        <li>
+            <a class="icon fa-info" href="/moi.html"><span>A propos de moi</span></a>
+        </li>
+        <li>
+            <a class="icon fa-envelope-o" href="#contact"><span>Contact</span></a>
+        </li>
+    </ul>
+</nav>

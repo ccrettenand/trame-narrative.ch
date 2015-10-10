@@ -1,0 +1,44 @@
+# Site settings
+title: Trame Narrative
+subtitle: Consultation psychothérapeutique
+author: Charlotte Crettenand
+email: charlotte@trame-narrative.ch
+description: "Trame Narrative Cabinet de consultations psychologiques à Sion en Valais, Charlotte Meier-Crettenand Psychologue FSP. Consultation individuelles, de couples, d'enfants et de familles sur rendez-vous."
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+
+url: "http://trame-narrative.ch"
+
+# Build settings
+markdown: kramdown
+
+permalink: /blog/:categories/:year/:month/:day/:title
+excerpt_separator: <!--more-->
+
+collections:
+  - therapie
+  - formation
+  - conte
+  - publication
+
+defaults:
+  - scope:
+      path: ""
+      type: therapie
+    values:
+      layout: therapie
+  - scope:
+      path: ""
+      type: formation
+    values:
+      layout: formation
+  - scope:
+      path: ""
+      type: conte
+    values:
+      layout: conte
+  - scope:
+      path: ""
+      type: publication
+    values:
+      layout: publication

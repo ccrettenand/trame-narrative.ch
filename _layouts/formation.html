@@ -1,0 +1,27 @@
+---
+---
+<div id="main-wrapper" id="{{ page.title | slugify }}>
+    <div id="main" class="container">
+        <div class="row">
+            {% if page.left_sidebar %}
+                {% include therapie_sidebar.html %}
+            {% endif %}
+
+            <div id="content" class="8u 12u(mobile)">
+                <article class="box post">
+                    <header>
+                        <h2>{{ page.title }}</h2>
+                    </header>
+
+                    <span class="image featured"><img src="{{ page.image }}" alt="{{ page.title }}"></span>
+
+                    {{ content }}
+                </article>
+            </div>
+
+            {% if page.left_sidebar != true %}
+                {% include therapie_sidebar.html %}
+            {% endif %}
+        </div>
+    </div>
+</div>
