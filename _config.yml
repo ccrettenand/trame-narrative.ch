@@ -26,19 +26,19 @@ defaults:
       path: ""
       type: therapie
     values:
-      layout: therapie
+      layout: parts/therapie
   - scope:
       path: ""
       type: formation
     values:
-      layout: formation
+      layout: parts/formation
   - scope:
       path: ""
       type: conte
     values:
-      layout: conte
+      layout: parts/conte
   - scope:
       path: ""
       type: publication
     values:
-      layout: publication
+      layout: parts/publication

@@ -1,5 +1,7 @@
 ---
 title: Enfants
+description: Description pour cette thérapie
+image: enfants.png
 ---
 Grandir? De nombreux défis à relever!
 

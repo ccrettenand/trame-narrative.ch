@@ -1,4 +1,5 @@
 ---
+title: Therapies
 layout: default
 ---
 {% for therapie in site.therapie %}

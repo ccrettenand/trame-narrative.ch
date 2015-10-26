@@ -1,5 +1,7 @@
 ---
 title: Adultes
+description: Description pour cette thérapie
+image: adultes.png
 ---
 Comment tisser son roman familial quand on est trois, quatre ou plus sur le même canevas?
 
