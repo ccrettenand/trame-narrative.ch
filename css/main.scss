@@ -491,7 +491,7 @@ button,
 
 /* Wrappers */
 
-#header-wrapper {
+.header-wrapper {
     position: relative;
     background: #fff;
     text-align: center;
@@ -501,7 +501,7 @@ button,
     }
 }
 
-#banner-wrapper {
+.banner-wrapper {
     position: relative;
     overflow: hidden;
     background: #fff;
@@ -521,7 +521,7 @@ button,
     }
 }
 
-#features-wrapper {
+.features-wrapper {
     position: relative;
     overflow: hidden;
     background: #fff;
@@ -536,13 +536,13 @@ button,
     }
 }
 
-#main-wrapper {
+.main-wrapper {
     position: relative;
     overflow: hidden;
     background: #fff;
 }
 
-#footer-wrapper {
+.footer-wrapper {
     position: relative;
     overflow: hidden;
     border-top: solid 2px #e5e5e5;
@@ -647,11 +647,6 @@ button,
     }
 }
 
-/* Features */
-
-#features {
-}
-
 /* Banner */
 
 #banner {
@@ -684,7 +679,7 @@ button,
 
 /* Sidebar */
 
-#sidebar {
+.sidebar {
     > section,
     > article {
         border-top: solid 2px #e5e5e5;
@@ -796,22 +791,22 @@ button,
 
     /* Wrappers */
 
-    #header-wrapper {
+    .header-wrapper {
     }
 
-    #features-wrapper {
+    .features-wrapper {
         padding: 6em 0 6em 0;
     }
 
-    #banner-wrapper {
+    .banner-wrapper {
         padding: 3em 0 3em 0;
     }
 
-    #main-wrapper {
+    .main-wrapper {
         padding: 6em 0 6em 0;
     }
 
-    #footer-wrapper {
+    .footer-wrapper {
         padding: 6em 0 8em 0;
     }
 
@@ -978,7 +973,7 @@ button,
 
     /* Sidebar */
 
-    #sidebar {
+    .sidebar {
         > section,
         > article {
             margin: 5em 0 0 0;
@@ -1038,22 +1033,22 @@ button,
 
     /* Wrappers */
 
-    #header-wrapper {
+    .header-wrapper {
     }
 
-    #features-wrapper {
+    .features-wrapper {
         padding: 4em 0 4em 0;
     }
 
-    #banner-wrapper {
+    .banner-wrapper {
         padding: 2em 0 2em 0;
     }
 
-    #main-wrapper {
+    .main-wrapper {
         padding: 4em 0 4em 0;
     }
 
-    #footer-wrapper {
+    .footer-wrapper {
         padding: 4em 0 6em 0;
     }
 
@@ -1337,23 +1332,23 @@ button,
 
     /* Wrappers */
 
-    #header-wrapper {
+    .header-wrapper {
         padding: 0 20px 0 20px;
     }
 
-    #features-wrapper {
+    .features-wrapper {
         padding: 3em 20px 3em 20px;
     }
 
-    #banner-wrapper {
+    .banner-wrapper {
         padding: 2em 0 2em 0;
     }
 
-    #main-wrapper {
+    .main-wrapper {
         padding: 3em 20px 3em 20px;
     }
 
-    #footer-wrapper {
+    .footer-wrapper {
         padding: 4em 20px 3em 20px;
     }
 
@@ -1412,7 +1407,7 @@ button,
 
     /* Sidebar */
 
-    #sidebar {
+    .sidebar {
         border-top: solid 2px #e5e5e5;
         box-shadow: inset 0 8px 0 0 #fff, inset 0 10px 0 0 #e5e5e5;
         margin-top: 4em !important;
