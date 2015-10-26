@@ -4,9 +4,49 @@ layout: base
 <div class="main-wrapper">
     <div id="main" class="container">
         <div id="content">
-            <article class="box post">
+            <article>
                 {{ content }}
             </article>
         </div>
+    </div>
+</div>
+
+<div class="features-wrapper">
+    <section id="features" class="container">
+        <header>
+            <h1>Les services que nous vous proposons</h1>
+        </header>
+        <div class="row">
+            {% for therapie in site.therapie %}
+                <div class="3u 12u(mobile)">
+                    <section>
+                        <a href="/therapies.html#{{ therapie.title | slugify }}" class="image featured">
+                            <img src="/files/therapies/square/{{ therapie.image }}" alt="{{ therapie.title }}">
+                        </a>
+                        <header>
+                            <h3>
+                                <a href="/therapies.html#{{ therapie.title | slugify }}">
+                                    {{ therapie.title }}
+                                </a>
+                            </h3>
+                        </header>
+                        <p>{{ therapie.description }}</p>
+                    </section>
+
+                </div>
+            {% endfor %}
+        </div>
+
+        <ul class="actions">
+            <li><a href="/therapies.html" class="button icon fa-stethoscope">Les thérapies</a></li>
+        </ul>
+    </section>
+</div>
+
+<div class="banner-wrapper">
+    <div class="inner">
+        <section id="banner" class="container">
+            <p>Avec Trame Narrative, reprenez les rênes de votre vie !</p>
+        </section>
     </div>
 </div>
