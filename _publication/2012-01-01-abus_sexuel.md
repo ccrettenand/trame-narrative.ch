@@ -5,4 +5,4 @@ pdf: http://disno.ch/documents/RAPPORTEviterlepremierpassage.pdf
 ---
 Recherche bibliographique et relecture.
 
-Pour plus dînformations : [DIS NO, liste des projets](http://disno.ch/projets.htm)
+Pour plus d'informations : [DIS NO, liste des projets](http://disno.ch/projets.htm)
