@@ -12,26 +12,26 @@ layout: base
 </div>
 
 <div class="features-wrapper">
-    <section id="features" class="container">
+    <article id="features" class="container">
         <header>
             <h1>Les services que nous vous proposons</h1>
         </header>
         <div class="row">
             {% for therapie in site.therapie %}
                 <div class="3u 12u(mobile)">
-                    <section>
+                    <article>
                         <a href="/therapies.html#{{ therapie.title | slugify }}" class="image featured">
                             <img src="/files/therapies/square/{{ therapie.image }}" alt="{{ therapie.title }}">
                         </a>
                         <header>
-                            <h3>
+                            <h1>
                                 <a href="/therapies.html#{{ therapie.title | slugify }}">
                                     {{ therapie.title }}
                                 </a>
-                            </h3>
+                            </h1>
                         </header>
                         <p>{{ therapie.description }}</p>
-                    </section>
+                    </article>
 
                 </div>
             {% endfor %}
@@ -40,7 +40,7 @@ layout: base
         <ul class="actions">
             <li><a href="/therapies.html" class="button icon fa-stethoscope">Les thérapies</a></li>
         </ul>
-    </section>
+    </article>
 </div>
 
 <div class="banner-wrapper">

@@ -7,17 +7,13 @@
     }
 
     h2 {
-        font-size: 1.65em;
         font-weight: 400;
         letter-spacing: 4px;
-        margin: 0 0 1.5em 0;
         line-height: 1.75em;
     }
 
     h3 {
-        font-size: 1em;
         letter-spacing: 2px;
-        margin: 0 0 1.25em 0;
     }
 
     /* Table */
@@ -87,39 +83,18 @@
 
     /* Wrappers */
 
-    .header-wrapper {
-    }
-
-    .features-wrapper {
-        padding: 6em 0 6em 0;
-    }
-
-    .banner-wrapper {
-        padding: 3em 0 3em 0;
-    }
-
-    .main-wrapper {
-        padding: 6em 0 6em 0;
-    }
-
+    .features-wrapper,
+    .banner-wrapper,
+    .main-wrapper,
     .footer-wrapper {
-        padding: 6em 0 8em 0;
+        padding: 2em 0 2em 0;
     }
 
     /* Header */
 
     #header {
-        padding: 14em 0 7em 0;
-
         h1 {
-            font-size: 3em;
             letter-spacing: 13px;
-        }
-
-        p {
-            margin: 2.5em 0 0 0;
-            font-size: 0.85em;
-            letter-spacing: 3px;
         }
     }
 
@@ -229,27 +204,6 @@
             line-height: 1.5em;
             letter-spacing: 4px;
         }
-
-        &:before, &:after {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 50%;
-            width: 35px;
-            height: 141px;
-            margin-top: -70px;
-            background: url('images/bracket.svg');
-            opacity: 0.15;
-        }
-
-        &:before {
-            left: 0;
-        }
-
-        &:after {
-            @include vendor('transform', 'scaleX(-1)');
-            right: 0;
-        }
     }
 
     /* Content */
@@ -285,7 +239,7 @@
     /* Copyright */
 
     #copyright {
-        margin-top: 6em;
-        padding-top: 4em;
+        margin-top: 1em;
+        padding-top: 1em;
     }
 }

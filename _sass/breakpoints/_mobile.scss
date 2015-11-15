@@ -1,8 +1,4 @@
 @include breakpoint(mobile) {
-    #navPanel, #titleBar {
-        display: none;
-    }
-
     /* Basic */
 
     html, body {
@@ -16,10 +12,7 @@
     }
 
     h2, h3, h4, h5, h6 {
-        font-size: 1.2em;
         letter-spacing: 2px;
-        text-align: center;
-        margin: 0 0 1.5em 0;
 
         br {
             display: none;
@@ -241,35 +234,22 @@
         padding: 0 20px 0 20px;
     }
 
-    .features-wrapper {
-        padding: 3em 20px 3em 20px;
-    }
-
-    .banner-wrapper {
-        padding: 2em 0 2em 0;
-    }
-
-    .main-wrapper {
-        padding: 3em 20px 3em 20px;
-    }
-
+    .features-wrapper,
+    .banner-wrapper,
+    .main-wrapper,
     .footer-wrapper {
-        padding: 4em 20px 3em 20px;
+        padding: 2em 20px 2em 20px;
     }
 
     /* Header */
 
     #header {
-        padding: 6em 0 4em 0;
+        padding-top: 2em;
 
         h1 {
             font-size: 2em;
             letter-spacing: 8px;
             line-height: 1.25em;
-        }
-        p {
-            margin: 1.25em 0 0 0;
-            letter-spacing: 2px;
         }
     }
 
