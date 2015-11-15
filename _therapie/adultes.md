@@ -1,11 +1,10 @@
 ---
-title: Adultes
+title: Individuel
 description: Description pour cette thérapie
 image: adultes.png
 ---
-Comment tisser son roman familial quand on est trois, quatre ou plus sur le même canevas?
+Dans le roman de la vie, certains protagonistes interviennent parfois pour semer le trouble. Il peut s’agir de “Angoisse”, “Colère”, “Anorexie”,  ...
 
-Nous vous proposons de vous accompagner pour démêler les fils d'un problème de communication,
-des questions de séparation, de médiation, de deuil ou de toute problématique spécifique qui
-peut toucher un des membres de votre famille et qui en affecte l'ensemble : difficultés
-d'apprentissage, hyperactivité, troubles du sommeil ou de l'alimentation, autorité et obéissance, etc.
+On peut avoir l'impression que l'existence devient une pelote où les fils s'entrelacent et créent des noeuds où nous n'y voyons plus clair.
+
+Comment fermer la porte à la “Peur” ou la “Dépression” ou ... pour oser se lancer, avancer, en Confiance ? Comment faire le point sur ce qui importe vraiment ? Quels alliés seraient à mobiliser dans cette période de souffrance ?
