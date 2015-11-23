@@ -90,6 +90,25 @@
                     $('#titleBar, #navPanel, #page-wrapper')
                         .css('transition', 'none');
 
+        $('.modal--overlay, .modal--close a').on('click', function() {
+            $('.modal').hide();
+        });
+
+        $(document).keyup(function(e) {
+          if (e.keyCode == 27) $('.modal').hide();   // esc
+        });
+
+        $('.conte-link').on('click', function(e) {
+            e.preventDefault();
+
+            var url = $(this).attr('href');
+            $.ajax(url).done(function(data) {
+                $('.modal--content').html(data);
+                $('.modal').show();
+            })
+        });
+
+
     });
 
 })(jQuery);

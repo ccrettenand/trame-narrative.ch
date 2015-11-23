@@ -791,6 +791,48 @@ button,
     }
 }
 
+div.modal {
+    display: none;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .modal--overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        background-color: black;
+        background-color: rgba(0,0,0, 0.8);
+    }
+
+    .modal--close {
+        position: absolute;
+        right: 5px;
+        top: 0;
+        span { display: none; }
+        a { text-decoration: none; border: none; }
+    }
+
+    .modal--inner {
+        position: absolute;
+        top: 5%;
+        bottom: 5%;
+        left: 5%;
+        right: 5%;
+
+        background-color: white;
+        padding: 1.2em;
+        overflow: auto;
+        max-height: 100%;
+    }
+}
+
 @import '../_sass/breakpoints/desktop';
 @import '../_sass/breakpoints/tablet';
 @import '../_sass/breakpoints/mobile';
