@@ -770,6 +770,27 @@ button,
     }
 }
 
+.conte {
+    h1 {
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        margin-bottom: 0.8em;
+
+        li {
+            margin: 0.2em 0;
+            &:before {
+                content: '-';
+                display: inline-block;
+                width: 10px;
+                margin-left: -10px;
+            }
+        }
+    }
+}
+
 @import '../_sass/breakpoints/desktop';
 @import '../_sass/breakpoints/tablet';
 @import '../_sass/breakpoints/mobile';

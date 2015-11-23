@@ -38,3 +38,9 @@ Publications
 {{ publication.output }}
     {% endif %}
 {% endfor %}
+
+{% for conte in site.conte %}
+    {% if conte.relative_path contains 'tapisserie' %}
+{{ conte.output }}
+    {% endif %}
+{% endfor %}

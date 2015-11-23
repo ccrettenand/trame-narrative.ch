@@ -16,10 +16,14 @@ permalink: /blog/:categories/:year/:month/:day/:title
 excerpt_separator: <!--more-->
 
 collections:
-  - therapie
-  - formation
-  - conte
-  - publication
+  therapie:
+      output: false
+  formation:
+      output: false
+  conte:
+      output: true
+  publication:
+      output: false
 
 defaults:
   - scope:

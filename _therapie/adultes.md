@@ -1,6 +1,7 @@
 ---
 title: Individuel
 description: Description pour cette thérapie
+conte: pelote
 image: adultes.png
 ---
 Dans le roman de la vie, certains protagonistes interviennent parfois pour semer le trouble. Il peut s’agir de “Angoisse”, “Colère”, “Anorexie”,  ...

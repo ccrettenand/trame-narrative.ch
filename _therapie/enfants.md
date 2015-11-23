@@ -1,6 +1,7 @@
 ---
 title: Enfants
 description: Description pour cette thérapie
+conte: cheveux
 image: enfants.png
 published: false
 ---
