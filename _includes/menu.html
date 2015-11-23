@@ -16,9 +16,16 @@
         <li>
             <a class="icon fa-file-text-o" href="/formations.html"><span>Formations</span></a>
             <ul>
+                {% assign counter = 0 %}
                 {% for formation in site.formation %}
-                    <li><a href="/formations.html#{{ formation.title | slugify }}" >{{ formation.title }}</a></li>
+                    {% if formation.published != false %}
+                        {% assign counter = counter | plus:1 %}
+                        <li><a href="/formations.html#{{ formation.title | slugify }}" >{{ formation.title }}</a></li>
+                    {% endif %}
                 {% endfor %}
+                {% if counter == 0 %}
+                    <li>Aucune formation à venir.</li>
+                {% endif %}
             </ul>
         </li>
         <li>

@@ -17,7 +17,7 @@
  <icon>{{ site.url }}/favicon.ico</icon>
  <logo>{{ site.url }}/favicon.ico</logo>
 
- {% for post in site.formations %}
+ {% for post in site.formation %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"/>
