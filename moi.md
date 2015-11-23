@@ -2,35 +2,39 @@
 title: Charlotte Crettenand
 layout: default
 ---
-Charlotte a créé le cabinet de consultations psychologiques et psychothérapeutiques « Trame Narrative » en mars 2012.
+Après l'obtention de son Master en Psychologie Clinique de l'Enfant et l'Adolescent à l'Université de Lausanne, Charlotte a été engagée à la [CIMI][cimi] (Consultation Interdisciplinaire de la Maltraitance Intrafamiliale) à Lausanne et a pu bénéficier d'un riche encadrement théorique et pratique par le Dr Gérard Salem et le Dr Nahum Frenck.
 
-Les fils conducteurs de Charlotte: la famille, les enfants, les contes
+Charlotte a ensuite vécu 15 mois à Montréal (2010-2011), au Canada, où elle s'est perfectionnée et formée en thérapie familiale et conjugale à l'[IFACEF][ifacef] (Institut de Formation et d'Aide Communautaire à l'Enfant et la Famille) ainsi qu'en approche narrative avec André Grégoire (Centre de Psychothérapie Stratégique), Peggy Sax (Re-authoring Teaching) et David Epston.
 
-Après l'obtention de son Master en Psychologie Clinique de l'Enfant et l'Adolescent à l'Université de Lausanne, Charlotte a été engagée à la CIMI (Consultation Interdisciplinaire de la Maltraitance Intrafamiliale) à Lausanne et a pu bénéficier d'un riche encadrement théorique et pratique par le Dr Gérard Salem, le Dr Nahum Frenck et Mme Francine Ferguson.
+A son retour en Suisse, elle fonde le cabinet de consultation “Trame Narrative” à Sion en mars 2012. La même année, elle devient présidente de l’association [As’trame Valais][astrame-vs] dont elle assure également la coordination clinique et les rencontres avec les familles.
 
-Charlotte a ensuite vécu 15 mois à Montréal (2010-2011), au Canada, où elle s'est perfectionnée et formée en thérapie familiale et conjugale à l'IFACEF (Institut de Formation et d'Aide Communautaire à l'Enfant et la Famille) ainsi qu'en approche narrative avec André Grégoire (Centre de Psychothérapie Stratégique), Peggy Sax (Re-authoring Teaching) et David Epston.
+Elle poursuit sa formation en psychothérapie d'orientation systémique dans le cadre de [Relance Relationnelle][rr] avec Dr Lucien Barrelet, Mr Rodolphe Soulignac et Dr Thomas Will. En 2014, elle obtient son titre de psychologue-psychothérapeute FSP en orientation systémique.
 
-En 2012, elle a poursuivi sa formation en psychothérapie d'orientation systémique dans le cadre de Relance Relationnelle avec Dr Lucien Barrelet, Mr Rodolphe Soulignac et Dr Thomas Will. En 2014, elle a rejoint l'équipe de formateurs du Certificat de thérapie narrative.
+En 2014, elle rejoint l'équipe de formateurs du “Certificat de Thérapie Narrative” coordonné par Relance Relationnelle.
 
-En 2014, elle a obtenu son titre de psychologue-psychothérapeute FSP en orientation systémique.
+Charlotte est reconnue en tant que psychologue spécialiste en psychothérapie par la [FSP][fsp]. Elle est par ailleurs membre de l'[ASVALIS][asvalis] (Association Valaisanne d'Interventions Systémiques et de Thérapie Familiale), l'[ASTHEFIS][asthefis] (Association Suisse de Thérapies de Familles et Interventions Systémiques) et l’[APVs][apvs] (Association des psychologues du Valais).
 
-Charlotte est reconnue en tant que psychologue spécialiste en psychothérapie par la FSP. Elle est par ailleurs membre de l'ASVALIS (Association Valaisanne d'Interventions Systémiques et de Thérapie Familiale) et l'ASTHEFIS (Association Suisse de Thérapies de Familles et Interventions Systémiques).
+[cimi]: http://www.cimi.ch
+[ifacef]: http://www.ifacef.com/
+[astrame-vs]: http://astrame-valais.ch
+[rr]: http://relancerelationnelle.ch
+[fsp]: http://www.psychologie.ch/fr/
+[asvalis]: http://www.asvalis.ch
+[asthefis]: http://www.asthefis.ch
+[apvs]: http://www.psy-vs.ch/fr/
 
 Approche thérapeutique
 ----------------------
 
-Nous pratiquons selon deux approches auxquelles nous sommes formées et qui nous tiennent à cœur :
+Les histoires me passionnent, autant celles qu’on écoute au coin du feu que celles qui se racontent le jour du marché.
 
-* la systémique investigue les liens tissés entre une personne et sa famille, ses groupes d'appartenance, la société dans laquelle elle évolue, ainsi que ceux qui ont été rompus, le cycle de vie et les questions de transmission intergénérationnelle;
-* la narrative aborde toutes ces histoires qui constituent une personne s'inscrivant dans un certain contexte socio-culturel et forment ainsi cette trame unique.
-
-### La co-intervention
-
-Pour les suivis de couple et de famille, nous avons choisi de vous accueillir à deux. Nous serons ainsi en mesure de vous faire profiter d'une double écoute ainsi que de la diversité de nos points de vue.
+Lorsqu’on décide de consulter, il est courant qu’on se sente emprisonné dans une même histoire, l’histoire du Problème, qui semble régir notre vie et nos relations.
 
 Publications
 ------------
 
-{% for publication in site.publication %}
-  {{ publication.output }}
+{% for publication in site.publication reversed %}
+    {% if publication.published != false %}
+{{ publication.output }}
+    {% endif %}
 {% endfor %}

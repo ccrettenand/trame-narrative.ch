@@ -2,7 +2,9 @@
 ---
 <article class="publication" id="{{ page.title | slugify }}">
     <h1>{{ page.title }}</h1>
-    <h2>{{ page.edition }}</h2>
+    <h2>
+        <i>{{ page.author }}</i> - <b>{{ page.edition }}</b> - {{ page.year }}
+    </h2>
     {{ content }}
     {% if page.pdf %}
         <p><a href="{{ page.pdf }}">Version électronique [PDF].</a></p>

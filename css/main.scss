@@ -741,6 +741,19 @@ button,
     display: none;
 }
 
+.publication {
+    h1 {
+        font-size: 130%;
+        margin-bottom: 2px;
+    }
+    h2 {
+        font-size: 100%;
+        margin-top: 0;
+        text-transform: none;
+        letter-spacing: inherit;
+    }
+}
+
 @import '../_sass/breakpoints/desktop';
 @import '../_sass/breakpoints/tablet';
 @import '../_sass/breakpoints/mobile';
