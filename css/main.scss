@@ -4,7 +4,7 @@
 @import '../_sass/functions';
 @import '../_sass/mixins';
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Calligraffitti|Loved+by+the+King|Comfortaa:300");
 
 @import "../_sass/skel";
 
@@ -63,6 +63,7 @@ input, textarea, select {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comfortaa', cursive;
     text-transform: uppercase;
     color: #888;
     margin-top: 0.5em;
@@ -106,11 +107,11 @@ a {
     }
 
     &:hover {
-        color: #ed786a;
+        color: #AF68BA;
         border-bottom-color: rgba(255, 255, 255, 0);
 
         strong {
-            color: #ed786a;
+            color: #AF68BA;
         }
     }
 }
@@ -428,7 +429,7 @@ button,
     -webkit-appearance: none;
     position: relative;
     display: inline-block;
-    background: #ed786a;
+    background: #AF68BA;
     color: #fff !important;
     text-transform: uppercase;
     border-radius: 4px;
@@ -453,7 +454,7 @@ button,
     }
 
     &:active {
-        background: #ed786a;
+        background: #AF68BA;
     }
 
     &.alt {
@@ -608,26 +609,34 @@ button,
     position: relative;
     border-bottom: solid 2px #e5e5e5;
     box-shadow: inset 0 -8px 0 0 #fff, inset 0 -10px 0 0 #e5e5e5;
-    padding: 7em 0 2em 0;
+    padding: 8em 0 2em 0;
 
-    h1 {
-        font-family: 'Arvo', sans-serif;
-        font-size: 3em;
-        font-weight: 700;
-        color: #ed786a;
+    h1, h2 {
+        color: #490254;
+        text-transform: none;
         text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
-
+        margin: 0;
         a {
             border: 0;
+            &:hover {
+                color: #AF68BA;
+            }
         }
     }
 
+    h1 {
+        font-family: 'Calligraffitti', cursive;
+        font-size: 4em;
+        font-weight: 700;
+        margin-left: -6em;
+    }
+
     h2 {
-        font-size: 1em;
-        text-transform: uppercase;
+        font-family: 'Loved by the King', cursive;
+        font-size: 3em;
         font-weight: 400;
-        color: #888;
-        margin: 1em;
+        margin-right: -6em;
+        margin-top: -0.3em;
     }
 }
 
@@ -674,13 +683,13 @@ button,
 
             &.active > a:before,
             &:hover > a:before {
-                background: #ED786A;
+                background: #AF68BA;
                 color: #fff;
             }
 
             &.active > a > span,
             &:hover > a > span {
-                color: #ED786A;
+                color: #AF68BA;
             }
         }
     }
