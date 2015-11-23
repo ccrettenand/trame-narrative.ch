@@ -563,6 +563,10 @@ button,
     overflow: hidden;
     background: #f0f0f0;
 
+    h2 {
+        letter-spacing: 0;
+    }
+
     form {
         input[type="text"],
         input[type="email"],
@@ -573,6 +577,18 @@ button,
 
             &:focus {
                 background: #fff;
+            }
+        }
+    }
+
+    ul {
+        margin-top: 2em;
+        list-style-type: none;
+        li {
+            margin: 0;
+            padding-top: 15px;
+            &:before {
+                top: 15px;
             }
         }
     }
