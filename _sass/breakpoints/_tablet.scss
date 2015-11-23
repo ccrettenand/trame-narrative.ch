@@ -25,4 +25,8 @@
             font-size: 2em;
         }
     }
+
+    .therapie:nth-child(2n+1) .row > div {
+        float:right;
+    }
 }

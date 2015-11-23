@@ -3,5 +3,7 @@ title: Therapies
 layout: default
 ---
 {% for therapie in site.therapie %}
-  {{ therapie.output }}
+    {% if therapie.published != false %}
+{{ therapie.output }}
+    {% endif %}
 {% endfor %}

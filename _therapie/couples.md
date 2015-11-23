@@ -2,7 +2,6 @@
 title: Couples
 description: Description pour cette thérapie
 image: couples.png
-left_sidebar: true
 ---
 Toi, moi, nous : au moins trois fils dont le tissage requiert un doigté particulier... Pas toujours évident de jongler avec cette gestion au quotidien!
 

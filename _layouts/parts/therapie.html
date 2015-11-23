@@ -2,10 +2,6 @@
 ---
 <article class="therapie" id="{{ page.title | slugify }}">
     <div class="row">
-        {% if page.left_sidebar %}
-            {% include therapie_sidebar.html %}
-        {% endif %}
-
         <div class="8u 12u(mobile)">
             <header>
                 <h1>{{ page.title }}</h1>
@@ -18,8 +14,6 @@
             {{ content }}
         </div>
 
-        {% if page.left_sidebar != true %}
-            {% include therapie_sidebar.html %}
-        {% endif %}
+        {% include therapie_sidebar.html %}
     </div>
 </article>

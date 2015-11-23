@@ -221,6 +221,10 @@
         }
     }
 
+    .therapie:nth-child(2n+1) .row > div {
+        float:right;
+    }
+
     /* Sidebar */
 
     .sidebar {

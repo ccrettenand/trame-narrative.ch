@@ -17,23 +17,32 @@ layout: base
             <h1>Les services que nous vous proposons</h1>
         </header>
         <div class="row">
+            {% assign nb_therapie = 0 %}
             {% for therapie in site.therapie %}
-                <div class="3u 12u(mobile)">
-                    <article>
-                        <a href="/therapies.html#{{ therapie.title | slugify }}" class="image featured">
-                            <img src="/files/therapies/square/{{ therapie.image }}" alt="{{ therapie.title }}">
-                        </a>
-                        <header>
-                            <h1>
-                                <a href="/therapies.html#{{ therapie.title | slugify }}">
-                                    {{ therapie.title }}
-                                </a>
-                            </h1>
-                        </header>
-                        <p>{{ therapie.description }}</p>
-                    </article>
+                {% if therapie.published != false %}
+                    {% assign nb_therapie = nb_therapie | plus:1 %}
+                {% endif %}
+            {% endfor %}
 
-                </div>
+            {% for therapie in site.therapie %}
+                {% if therapie.published != false %}
+                    <div class="{{ 12 | divided_by:nb_therapie }}u 12u(mobile)">
+                        <article>
+                            <a href="/therapies.html#{{ therapie.title | slugify }}" class="image featured">
+                                <img src="/files/therapies/square/{{ therapie.image }}" alt="{{ therapie.title }}">
+                            </a>
+                            <header>
+                                <h1>
+                                    <a href="/therapies.html#{{ therapie.title | slugify }}">
+                                        {{ therapie.title }}
+                                    </a>
+                                </h1>
+                            </header>
+                            <p>{{ therapie.description }}</p>
+                        </article>
+
+                    </div>
+                {% endif %}
             {% endfor %}
         </div>
 

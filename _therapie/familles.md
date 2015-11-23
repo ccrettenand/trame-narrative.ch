@@ -2,7 +2,6 @@
 title: Familles
 description: Description pour cette thérapie
 image: familles.png
-left_sidebar: true
 ---
 Comment tisser son roman familial quand on est trois, quatre ou plus sur le même canevas?
 

@@ -7,7 +7,9 @@
             <a class="icon fa-stethoscope" href="/therapies.html"><span>Thérapies</span></a>
             <ul>
                 {% for therapie in site.therapie %}
-                    <li><a href="/therapies.html#{{ therapie.title | slugify }}" >{{ therapie.title }}</a></li>
+                    {% if therapie.published != false %}
+                        <li><a href="/therapies.html#{{ therapie.title | slugify }}" >{{ therapie.title }}</a></li>
+                    {% endif %}
                 {% endfor %}
             </ul>
         </li>
