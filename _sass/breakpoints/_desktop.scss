@@ -184,7 +184,7 @@
             &:hover {
                 > span, > a {
                     @include vendor('transition', ('color 0.25s ease-in-out', 'border-bottom-color 0.25s ease-in-out'));
-                    color: #ed786a;
+                    color: #AF68BA;
                 }
             }
         }
