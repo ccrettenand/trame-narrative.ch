@@ -179,7 +179,6 @@ article:last-child {
 .image {
     @include vendor('transition', 'opacity 0.25s ease-in-out');
     display: inline-block;
-    border: solid 6px #ebebeb !important;
 
     &:hover {
         opacity: 0.9;
@@ -524,12 +523,14 @@ button,
     background: #fff;
     color: #fff;
     text-align: center;
-    border-top: solid 2px #e5e5e5;
-    border-bottom: solid 2px #e5e5e5;
-    box-shadow: inset 0 -8px 0 0 #fff, inset 0 -10px 0 0 #e5e5e5, inset 0 8px 0 0 #fff, inset 0 10px 0 0 #e5e5e5;
+    text-shadow: 1px 1px 2px grey;
+
+    .container {
+        max-width: 40em;
+    }
 
     .inner {
-        background: url('../files/therapies/panorama/adultes.png');
+        background: url('../files/citation.jpg');
         background-size: cover;
     }
 
@@ -608,8 +609,7 @@ button,
 #header {
     position: relative;
     border-bottom: solid 2px #e5e5e5;
-    box-shadow: inset 0 -8px 0 0 #fff, inset 0 -10px 0 0 #e5e5e5;
-    padding: 8em 0 2em 0;
+    padding: 6em 0 1em 0;
 
     h1, h2 {
         color: #490254;
@@ -722,6 +722,20 @@ button,
             border-top: 0;
             box-shadow: none;
         }
+    }
+}
+
+#features {
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        display: none;
+    }
+
+    .image.featured {
+        margin-bottom: 1em;
     }
 }
 

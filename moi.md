@@ -1,7 +1,10 @@
 ---
 title: Charlotte Crettenand
-layout: default
+layout: aboutme
 ---
+
+<a name="moi"></a>
+
 Après l'obtention de son Master en Psychologie Clinique de l'Enfant et l'Adolescent à l'Université de Lausanne, Charlotte a été engagée à la [CIMI][cimi] (Consultation Interdisciplinaire de la Maltraitance Intrafamiliale) à Lausanne et a pu bénéficier d'un riche encadrement théorique et pratique par le Dr Gérard Salem et le Dr Nahum Frenck.
 
 Charlotte a ensuite vécu 15 mois à Montréal (2010-2011), au Canada, où elle s'est perfectionnée et formée en thérapie familiale et conjugale à l'[IFACEF][ifacef] (Institut de Formation et d'Aide Communautaire à l'Enfant et la Famille) ainsi qu'en approche narrative avec André Grégoire (Centre de Psychothérapie Stratégique), Peggy Sax (Re-authoring Teaching) et David Epston.
@@ -23,12 +26,7 @@ Charlotte est reconnue en tant que psychologue spécialiste en psychothérapie p
 [asthefis]: http://www.asthefis.ch
 [apvs]: http://www.psy-vs.ch/fr/
 
-Approche thérapeutique
-----------------------
-
-Les histoires me passionnent, autant celles qu’on écoute au coin du feu que celles qui se racontent le jour du marché.
-
-Lorsqu’on décide de consulter, il est courant qu’on se sente emprisonné dans une même histoire, l’histoire du Problème, qui semble régir notre vie et nos relations.
+<a name="publications"></a>
 
 Publications
 ------------

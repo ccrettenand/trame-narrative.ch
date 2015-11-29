@@ -1,5 +1,5 @@
 ---
-title: "La petite pelote de laine"
+title: "La petite pelote de haine"
 source: "Salomé, J. (1993). Contes à guérir, contes à grandir. Paris : Albin Michel"
 ---
 Il était une fois un ancien petit garçon qui s'était attaché, il y avait de cela très longtemps, à une petite pelote de haine.

@@ -4,17 +4,18 @@
             <a class="icon fa-home" href="/index.html"><span>Introduction</span></a>
         </li>
         <li>
-            <a class="icon fa-stethoscope" href="/therapies.html"><span>Thérapies</span></a>
+            <a class="icon fa-comments" href="/therapies.html"><span>Thérapies</span></a>
             <ul>
                 {% for therapie in site.therapie %}
                     {% if therapie.published != false %}
                         <li><a href="/therapies.html#{{ therapie.title | slugify }}" >{{ therapie.title }}</a></li>
                     {% endif %}
                 {% endfor %}
+                <li><a href="/therapies.html#approche" >Approche thérapeutique</a></li>
             </ul>
         </li>
         <li>
-            <a class="icon fa-file-text-o" href="/formations.html"><span>Formations</span></a>
+            <a class="icon fa-briefcase" href="/formations.html"><span>Formations</span></a>
             <ul>
                 {% assign counter = 0 %}
                 {% for formation in site.formation %}
@@ -29,10 +30,14 @@
             </ul>
         </li>
         <li>
-            <a class="icon fa-info" href="/moi.html"><span>A propos de moi</span></a>
+            <a class="icon fa-leaf" href="/moi.html"><span>A mon propos</span></a>
+            <ul>
+                <li><a href="/moi.html#moi" >A mon propos</a></li>
+                <li><a href="/moi.html#publications" >Publications</a></li>
+            </ul>
         </li>
         <li>
-            <a class="icon fa-envelope-o" href="#contact"><span>Contact</span></a>
+            <a class="icon fa-pencil" href="#contact"><span>Contact</span></a>
         </li>
     </ul>
 </nav>

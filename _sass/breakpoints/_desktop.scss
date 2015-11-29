@@ -87,14 +87,18 @@
     .banner-wrapper,
     .main-wrapper,
     .footer-wrapper {
-        padding: 2em 0 2em 0;
+        padding: 1em 0 1em 0;
+    }
+
+    .banner-wrapper {
+        padding-bottom: 0;
     }
 
     /* Nav */
 
     #nav {
         position: absolute;
-        top: 1.5em;
+        top: 0.75em;
         left: 0;
         width: 100%;
 
