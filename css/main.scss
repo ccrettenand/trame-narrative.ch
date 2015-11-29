@@ -746,16 +746,7 @@ ul.dropotron {
 /* Sidebar */
 
 .sidebar {
-    > section,
-    > article {
-        border-top: solid 2px #e5e5e5;
-        box-shadow: inset 0 8px 0 0 #fff, inset 0 10px 0 0 #e5e5e5;
-
-        &:first-child {
-            border-top: 0;
-            box-shadow: none;
-        }
-    }
+    padding-top: 6.5em;
 }
 
 /* Copyright */

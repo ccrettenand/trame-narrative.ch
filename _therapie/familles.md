@@ -2,6 +2,8 @@
 title: Familles
 description: Description pour cette thérapie
 conte: broderie
+duree: 50
+tarif: 160
 image: familles.jpg
 ---
 Comment tisser son roman familial quand on est trois, quatre ou plus sur le même canevas?

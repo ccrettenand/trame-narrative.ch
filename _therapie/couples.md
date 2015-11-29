@@ -2,6 +2,8 @@
 title: Couples
 description: Description pour cette thérapie
 conte: anait
+duree: 50
+tarif: 160
 image: couples.jpg
 ---
 Toi, moi, nous : au moins trois fils dont le tissage requiert un doigté particulier... Pas toujours évident de jongler avec cette gestion au quotidien!

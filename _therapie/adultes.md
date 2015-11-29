@@ -2,6 +2,8 @@
 title: Individuel
 description: Description pour cette thérapie
 conte: pelote
+duree: 50
+tarif: 130
 image: adultes.jpg
 ---
 Dans le roman de la vie, certains protagonistes interviennent parfois pour semer le trouble. Il peut s’agir de “Angoisse”, “Colère”, “Anorexie”,  ...
