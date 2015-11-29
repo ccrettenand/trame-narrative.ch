@@ -642,6 +642,10 @@ button,
 
 /* Nav */
 
+ul.dropotron {
+    list-style-type: none;
+}
+
 #nav {
     cursor: default;
     > ul {

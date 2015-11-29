@@ -19,13 +19,13 @@ layout: base
         <div class="row">
             {% assign nb_therapie = 0 %}
             {% for therapie in site.therapie %}
-                {% if therapie.published != false %}
+                {% if therapie.published != false and therapie.homepage != false %}
                     {% assign nb_therapie = nb_therapie | plus:1 %}
                 {% endif %}
             {% endfor %}
 
             {% for therapie in site.therapie %}
-                {% if therapie.published != false %}
+                {% if therapie.published != false and therapie.homepage != false %}
                     <div class="{{ 12 | divided_by:nb_therapie }}u 12u(mobile)">
                         <article>
                             <a href="/therapies.html#{{ therapie.title | slugify }}" class="image featured">
