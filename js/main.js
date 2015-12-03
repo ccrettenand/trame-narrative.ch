@@ -102,6 +102,9 @@
             e.preventDefault();
 
             var url = $(this).attr('href');
+
+            ga('send', 'event', 'Conte', 'Click', url);
+
             $.ajax(url).done(function(data) {
                 $('.modal--content').html(data);
                 $('.modal').show();
@@ -113,7 +116,27 @@
                 e.preventDefault();
                 $(this).find('a').click();
             }
-        })
+        });
+
+        $('.js-button').on('click', function() {
+            ga('send', 'event', 'Button', 'Click', $(this).attr('href'));
+        });
+
+        $('.js-featured').on('click', function() {
+            ga('send', 'event', 'Featured', 'Click', $(this).attr('href'));
+        });
+
+        $('.js-contact').on('click', function() {
+            ga('send', 'event', 'Contact', 'Click', 'Footer', $(this).data('contact-type'));
+        });
+
+        $('.js-menu-contact').on('click', function() {
+            ga('send', 'event', 'Contact', 'Click', 'Menu');
+        });
+
+        $('.js-rdv-contact').on('click', function() {
+            ga('send', 'event', 'Contact', 'Click', 'Therapie', $(this).parents('.therapie').attr('id'));
+        });
     });
 
 })(jQuery);

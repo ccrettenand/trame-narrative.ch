@@ -28,12 +28,12 @@ layout: base
                 {% if therapie.published != false and therapie.homepage != false %}
                     <div class="{{ 12 | divided_by:nb_therapie }}u 12u(mobile)">
                         <article>
-                            <a href="/therapies.html#{{ therapie.title | slugify }}" class="image featured">
+                            <a href="/therapies.html#{{ therapie.title | slugify }}" class="js-featured image featured">
                                 <img src="/files/therapies/square/{{ therapie.image }}" alt="{{ therapie.title }}">
                             </a>
                             <header>
                                 <h1>
-                                    <a href="/therapies.html#{{ therapie.title | slugify }}">
+                                    <a href="/therapies.html#{{ therapie.title | slugify }}" class="js-featured">
                                         {{ therapie.title }}
                                     </a>
                                 </h1>
@@ -47,7 +47,7 @@ layout: base
         </div>
 
         <ul class="actions">
-            <li><a href="/therapies.html" class="button icon fa-comments">Les thérapies</a></li>
+            <li><a href="/therapies.html" class="button icon fa-comments js-button">Les thérapies</a></li>
         </ul>
     </article>
 </div>
