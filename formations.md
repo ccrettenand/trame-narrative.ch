@@ -1,4 +1,5 @@
 ---
+titles: Formations
 layout: default
 ---
 {% assign counter = 0 %}

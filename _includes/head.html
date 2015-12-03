@@ -1,4 +1,4 @@
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# business: http://ogp.me/ns/business#">
     <meta charset="utf-8" />
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
@@ -6,6 +6,24 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta property="og:type" content="business.business" />
+    <meta property="og:site_name" content="{{ site.title }}"/>
+    <meta property="og:locale" content="fr_CH" />
+    <meta property="article:author" content="https://www.facebook.com/ccrettenand" />
+    <meta property="article:publisher" content="https://www.facebook.com/TrameNarrative" />
+
+    <meta property="business:contact_data:street_address" content="Rue de Gravelone 8" />
+    <meta property="business:contact_data:locality" content="Sion" />
+    <meta property="business:contact_data:postal_code" content="1950" />
+    <meta property="business:contact_data:country_name" content="Suisse" />
+    <meta property="place:location:latitude" content="46.236817" />
+    <meta property="place:location:longitude" content="7.357354" />
+
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:image" content="{{ site.url }}/files/facebook_share.jpg" />
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:description" content="{{ site.description }}" />
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
 
