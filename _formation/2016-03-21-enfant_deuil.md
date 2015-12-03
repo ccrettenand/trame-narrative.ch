@@ -1,5 +1,5 @@
 ---
-title: L’enfant en deuil
+title: L’enfant en deuil - Lausanne
 organisateur: Fondation As'trame
 lieu: Lausanne
 date: 21-22 Mars et 25 Avril 2016

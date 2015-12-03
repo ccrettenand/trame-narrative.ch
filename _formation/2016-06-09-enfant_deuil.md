@@ -1,5 +1,5 @@
 ---
-title: L’enfant en deuil
+title: L’enfant en deuil - Sion
 organisateur: Fondation As'trame
 lieu: Sion
 date: 9-10 Mai et 6 Juin 2016

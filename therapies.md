@@ -12,7 +12,7 @@ layout: default
     <h2 style="text-align:center;">Approche thérapeutique</h2>
 </header>
 
-<div class="row">
+<div class="row" style="margin-bottom: 10px">
     <span class="image 8u -2u 12u(mobile)">
         <img src="/files/therapies/panorama/approche.jpg" alt="Approche thérapeutique">
     </span>
