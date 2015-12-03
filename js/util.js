@@ -23,8 +23,7 @@
                     ( (typeof target !== 'undefined' && target != '') ? ' target="' + target + '"' : '') +
                     ( (typeof href !== 'undefined' && href != '') ? ' href="' + href + '"' : '') +
                 '>' +
-                    '<span class="indent-' + indent + '"></span>' +
-                    $this.text() +
+                    '<span class="indent-' + indent + '">' + $this.text() + '</span>' +
                 '</a>'
             );
 

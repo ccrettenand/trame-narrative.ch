@@ -534,6 +534,22 @@ button,
         background-size: cover;
     }
 
+    &.apropos-conte {
+        cursor: pointer;
+        .inner {
+            background: url('../files/charlotte-conte.jpg');
+        }
+        &:hover {
+            color: darkgrey;
+        }
+    }
+
+    a {
+        color: inherit;
+        text-decoration: inherit;
+        border-bottom: inherit;
+    }
+
     p {
         text-align: center;
     }

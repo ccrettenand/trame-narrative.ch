@@ -39,6 +39,12 @@ Publications
 
 {% for conte in site.conte %}
     {% if conte.relative_path contains 'tapisserie' %}
-{{ conte.output }}
+<div class="banner-wrapper apropos-conte">
+ <div class="inner">
+  <article id="banner" class="container">
+   <p><a href="{{ conte.url }}" class="conte-link">Un conte : {{ conte.title }}.</a></p>
+  </article>
+ </div>
+</div>
     {% endif %}
 {% endfor %}

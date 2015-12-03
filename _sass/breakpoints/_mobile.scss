@@ -34,12 +34,19 @@
     /* Image */
 
     .image {
+        border-bottom: none !important;
+
         &.left {
             width: 40%;
         }
 
         &.featured {
             margin: 0 0 2em 0;
+
+            img {
+                max-width: 264px;
+                margin: 0 auto;
+            }
         }
     }
 
@@ -174,11 +181,10 @@
             display: block;
             color: #ddd;
             text-decoration: none;
-            height: 44px;
-            line-height: 44px;
             border: 0;
             border-top: solid 1px #3c3c3c;
-            padding: 0 1em 0 1em;
+            padding: 12px 1em;
+            line-height: normal;
             &:first-child {
                 border-top: 0;
             }
@@ -189,23 +195,23 @@
         }
         .indent-1 {
             display: inline-block;
-            width: 1em;
+            margin-left: 1em;
         }
         .indent-2 {
             display: inline-block;
-            width: 2em;
+            margin-left: 2em;
         }
         .indent-3 {
             display: inline-block;
-            width: 3em;
+            margin-left: 3em;
         }
         .indent-4 {
             display: inline-block;
-            width: 4em;
+            margin-left: 4em;
         }
         .indent-5 {
             display: inline-block;
-            width: 5em;
+            margin-left: 5em;
         }
         .depth-0 {
             color: #fff;
@@ -268,7 +274,7 @@
     /* Banner */
 
     #banner {
-        padding: 5em 20px 5em 20px;
+        padding: 4em 20px;
         margin: 0 !important;
 
         p {

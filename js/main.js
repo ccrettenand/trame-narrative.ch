@@ -108,7 +108,12 @@
             })
         });
 
-
+        $('.apropos-conte').on('click', function(e) {
+            if(e.target.nodeName != 'A') {
+                e.preventDefault();
+                $(this).find('a').click();
+            }
+        })
     });
 
 })(jQuery);
