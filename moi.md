@@ -17,6 +17,13 @@ En 2014, elle rejoint l'équipe de formateurs du “Certificat de Thérapie Narr
 
 Charlotte est reconnue en tant que psychologue spécialiste en psychothérapie par la [FSP][fsp]. Elle est par ailleurs membre de l'[ASVALIS][asvalis] (Association Valaisanne d'Interventions Systémiques et de Thérapie Familiale), l'[ASTHEFIS][asthefis] (Association Suisse de Thérapies de Familles et Interventions Systémiques) et l’[APVs][apvs] (Association des psychologues du Valais).
 
+<div class='logos-membre' markdown='1'>
+[![Fédération Suisse des Psychologues][fsp-logo]][fsp]
+[![Association Suisse de Thérapies de Familles et Interventions Systémiques][asthefis-logo]][asthefis]
+[![Fédération Valaisanne d'Interventions Systémiques et de Thérapies de Familles][asvalis-logo]][asvalis]
+[![Association des Psychologues du Valais][apvs-logo]][apvs]
+</div>
+
 [cimi]: http://www.cimi.ch
 [ifacef]: http://www.ifacef.com/
 [astrame-vs]: http://astrame-valais.ch
@@ -25,6 +32,12 @@ Charlotte est reconnue en tant que psychologue spécialiste en psychothérapie p
 [asvalis]: http://www.asvalis.ch
 [asthefis]: http://www.asthefis.ch
 [apvs]: http://www.psy-vs.ch/fr/
+[fsp]: http://www.psychologie.ch/
+
+[fsp-logo]: /files/logo/fsp.png
+[asthefis-logo]: /files/logo/asthefis.png
+[asvalis-logo]: /files/logo/asvalis.png
+[apvs-logo]: /files/logo/apvs.png
 
 <a name="publications"></a>
 

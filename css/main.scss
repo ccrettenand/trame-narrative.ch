@@ -871,6 +871,23 @@ div.modal {
     }
 }
 
+.logos-membre {
+    margin: 2em 0;
+    p {
+        text-align: center;
+    }
+
+    img {
+        height: 50px;
+        margin: 0 1em;
+    }
+
+    a {
+        text-decoration: none;
+        border: none;
+    }
+}
+
 @import '../_sass/breakpoints/desktop';
 @import '../_sass/breakpoints/tablet';
 @import '../_sass/breakpoints/mobile';
