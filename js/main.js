@@ -90,7 +90,8 @@
                     $('#titleBar, #navPanel, #page-wrapper')
                         .css('transition', 'none');
 
-        $('.modal--overlay, .modal--close a').on('click', function() {
+        $('.modal').on('click', '.js-modal-close', function(e) {
+            e.preventDefault();
             $('.modal').hide();
         });
 
