@@ -795,6 +795,10 @@ ul.dropotron {
     display: none;
 }
 
+#titleBar > a > span {
+    display: none;
+}
+
 .publication {
     h1 {
         font-size: 130%;
@@ -805,6 +809,13 @@ ul.dropotron {
         margin-top: 0;
         text-transform: none;
         letter-spacing: inherit;
+    }
+}
+
+#page-wrapper .conte {
+    > h1,
+    .js-modal-close {
+        display: none;
     }
 }
 
@@ -873,8 +884,14 @@ div.modal {
 
 .logos-membre {
     margin: 2em 0;
-    p {
+
+    ul {
+        list-style-type: none;
         text-align: center;
+
+        li {
+            display: inline-block;
+        }
     }
 
     img {

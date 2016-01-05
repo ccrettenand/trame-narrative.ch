@@ -60,7 +60,7 @@
             // Title Bar.
                 $(
                     '<div id="titleBar">' +
-                        '<a href="#navPanel" class="toggle"></a>' +
+                        '<a href="#navPanel" class="toggle"><span>Navigation mobile</span></a>' +
                     '</div>'
                 )
                     .appendTo($body);
@@ -107,7 +107,7 @@
             ga('send', 'event', 'Conte', 'Click', url);
 
             $.ajax(url).done(function(data) {
-                $('.modal--content').html(data);
+                $('.modal--content').html($(data).find('.conte'));
                 $('.modal').show();
             })
         });

@@ -3,8 +3,6 @@ title: Charlotte Crettenand
 layout: aboutme
 ---
 
-<a name="moi"></a>
-
 Après l'obtention de son Master en Psychologie Clinique de l'Enfant et l'Adolescent à l'Université de Lausanne, Charlotte a été engagée à la [CIMI][cimi] (Consultation Interdisciplinaire de la Maltraitance Intrafamiliale) à Lausanne et a pu bénéficier d'un riche encadrement théorique et pratique par le Dr Gérard Salem et le Dr Nahum Frenck.
 
 Charlotte a ensuite vécu 15 mois à Montréal (2010-2011), au Canada, où elle s'est perfectionnée et formée en thérapie familiale et conjugale à l'[IFACEF][ifacef] (Institut de Formation et d'Aide Communautaire à l'Enfant et la Famille) ainsi qu'en approche narrative avec André Grégoire (Centre de Psychothérapie Stratégique), Peggy Sax (Re-authoring Teaching) et David Epston.
@@ -18,10 +16,10 @@ En 2014, elle rejoint l'équipe de formateurs du “Certificat de Thérapie Narr
 Charlotte est reconnue en tant que psychologue spécialiste en psychothérapie par la [FSP][fsp]. Elle est par ailleurs membre de l'[ASVALIS][asvalis] (Association Valaisanne d'Interventions Systémiques et de Thérapie Familiale), l'[ASTHEFIS][asthefis] (Association Suisse de Thérapies de Familles et Interventions Systémiques) et l’[APVs][apvs] (Association des psychologues du Valais).
 
 <div class='logos-membre' markdown='1'>
-[![Fédération Suisse des Psychologues][fsp-logo]][fsp]
-[![Association Suisse de Thérapies de Familles et Interventions Systémiques][asthefis-logo]][asthefis]
-[![Fédération Valaisanne d'Interventions Systémiques et de Thérapies de Familles][asvalis-logo]][asvalis]
-[![Association des Psychologues du Valais][apvs-logo]][apvs]
+* [![Fédération Suisse des Psychologues][fsp-logo]][fsp]
+* [![Association Suisse de Thérapies de Familles et Interventions Systémiques][asthefis-logo]][asthefis]
+* [![Fédération Valaisanne d'Interventions Systémiques et de Thérapies de Familles][asvalis-logo]][asvalis]
+* [![Association des Psychologues du Valais][apvs-logo]][apvs]
 </div>
 
 [cimi]: http://www.cimi.ch
@@ -38,8 +36,6 @@ Charlotte est reconnue en tant que psychologue spécialiste en psychothérapie p
 [asthefis-logo]: /files/logo/asthefis.png
 [asvalis-logo]: /files/logo/asvalis.png
 [apvs-logo]: /files/logo/apvs.png
-
-<a name="publications"></a>
 
 Publications
 ------------
