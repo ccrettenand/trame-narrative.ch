@@ -2,7 +2,7 @@
 title: Certificat de thérapie narrative
 organisateur: Relance Relationelle
 lieu: Genève
-date: Février à Mai 2016
+formation_date: Février à Mai 2016
 inscription: http://relancerelationnelle.ch/formations-systemiques/ctn/
 published: true
 ---

@@ -2,7 +2,7 @@
 title: L’enfant et la séparation de ses parents
 organisateur: Fondation As'trame
 lieu: Sion
-date: 12-13 Septembre et 10 Octobre 2016
+formation_date: 12-13 Septembre et 10 Octobre 2016
 inscription: http://www.astrame.ch/pour-les-professionnels/formation-enfant-et-la-separation.html
 published: true
 ---

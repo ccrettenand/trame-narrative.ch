@@ -2,7 +2,7 @@
 title: Accompagner l’adulte en deuil
 organisateur: Fondation As'trame
 lieu: Lausanne
-date: 17-18 Octobre et 14 Novembre 2016
+formation_date: 17-18 Octobre et 14 Novembre 2016
 inscription: http://www.astrame.ch/pour-les-professionnels/formation-ladulte-en-deuil.html
 published: true
 ---
