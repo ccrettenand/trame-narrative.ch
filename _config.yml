@@ -1,3 +1,18 @@
+# Github forced settings
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+    noscript: false
+
+kramdown:
+    input: GFM
+    hard_wrap: false
+gems:
+    - jekyll-coffeescript
+    - jekyll-paginate
+
 # Site settings
 title: Trame Narrative
 subtitle: Consultation psychothérapeutique
@@ -8,9 +23,6 @@ description: "Trame Narrative Cabinet de consultations psychologiques à Sion en
 baseurl: "" # the subpath of your site, e.g. /blog/
 
 url: "http://trame-narrative.ch"
-
-# Build settings
-markdown: kramdown
 
 permalink: /blog/:categories/:year/:month/:day/:title
 excerpt_separator: <!--more-->
