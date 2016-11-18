@@ -18,7 +18,10 @@
             <ul>
                 {% assign counter = 0 %}
                 {% for formation in site.formation %}
-                    {% if formation.published != false %}
+                    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+                    {% capture posttime %}{{formation.end_date | date: '%s'}}{% endcapture %}
+
+                    {% if formation.published != false and posttime > nowunix %}
                         {% assign counter = counter | plus:1 %}
                         <li><a href="/formations.html#{{ formation.title | slugify }}" >{{ formation.title }}</a></li>
                     {% endif %}
