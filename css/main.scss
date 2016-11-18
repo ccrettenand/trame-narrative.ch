@@ -906,6 +906,17 @@ div.modal {
     }
 }
 
+
+.about-image {
+    float: left;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+
+    img {
+        max-width: 245px;
+    }
+}
+
 @import '../_sass/breakpoints/desktop';
 @import '../_sass/breakpoints/tablet';
 @import '../_sass/breakpoints/mobile';
