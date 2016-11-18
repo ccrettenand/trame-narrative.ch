@@ -2,6 +2,7 @@
 title: L’enfant en deuil - Sion
 organisateur: Fondation As'trame
 lieu: Sion
+end_date: 1479458547
 formation_date: 9-10 Mai et 6 Juin 2016
 inscription: http://www.astrame.ch/pour-les-professionnels/formation-enfant-en-deuil.html
 published: true
