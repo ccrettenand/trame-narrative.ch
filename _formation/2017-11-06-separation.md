@@ -1,5 +1,5 @@
 ---
-title: Le deuil au sein de la famille
+title: Enfants et parents face à la séparation conjugale
 organisateur: Fondation As'trame
 lieu: Sion
 end_date: 1512432000
