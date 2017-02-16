@@ -138,6 +138,13 @@
         $('.js-rdv-contact').on('click', function() {
             ga('send', 'event', 'Contact', 'Click', 'Therapie', $(this).parents('.therapie').attr('id'));
         });
+
+        $('#banner-5ans').on('click', function(e) {
+            if(e.target.nodeName != 'A') {
+                e.preventDefault();
+                document.location = $(this).find('a').attr('href');
+            }
+        })
     });
 
 })(jQuery);
