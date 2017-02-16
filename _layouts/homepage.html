@@ -11,6 +11,10 @@ layout: base
     </div>
 </div>
 
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+{% capture posttime %}1489276800{% endcapture %}
+
+{% if posttime > nowunix %}
 <div class="main-wrapper">
     <div id="banner-5ans" class="container">
         <article>
@@ -25,6 +29,7 @@ layout: base
         </article>
     </div>
 </div>
+{% endif %}
 
 
 <div class="features-wrapper">
