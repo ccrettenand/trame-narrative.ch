@@ -139,10 +139,13 @@
             ga('send', 'event', 'Contact', 'Click', 'Therapie', $(this).parents('.therapie').attr('id'));
         });
 
-        $('#banner-5ans').on('click', function(e) {
-            if(e.target.nodeName != 'A') {
-                e.preventDefault();
-                document.location = $(this).find('a').attr('href');
+        var now = Date.now() / 1000;
+        $('.future_formations .formation').each(function() {
+            var el = $(this);
+            var date = +el.data('date');
+
+            if(date < now ) {
+                $('.past_formations').append(el);
             }
         })
     });

@@ -1,12 +1,7 @@
 <aside class="sidebar 4u 12u(mobile)">
-    <ul>
-        <li><a href="#contact" class="js-rdv-contact">Prendre rendez-vous</a></li>
-        <li>Durée: {{ page.duree }} minutes</li>
-        <li>Tarif: {{ page.tarif }} CHF</li>
-        {% for conte in site.conte %}
-            {% if conte.relative_path contains page.conte %}
-                <li><a href="{{ conte.url }}" class="conte-link">{{ conte.title }} : découvrir le conte.</a></li>
-            {% endif %}
-        {% endfor %}
-    </ul>
+    {% for conte in site.conte %}
+        {% if conte.relative_path contains page.conte %}
+            <a href="{{ conte.url }}" class="conte-link">{{ conte.title }} : découvrir le conte.</a>
+        {% endif %}
+    {% endfor %}
 </aside>

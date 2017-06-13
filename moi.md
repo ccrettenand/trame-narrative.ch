@@ -13,6 +13,8 @@ Elle poursuit sa formation en psychothérapie d'orientation systémique dans le 
 
 En 2014, elle rejoint l'équipe de formateurs du “Certificat de Thérapie Narrative” coordonné par Relance Relationnelle.
 
+Depuis 2012, Charlotte propose des formations et des interventions ciblées sur les thèmes de l'approche narrative, du deuil et des ruptures de lien (séparation conjugale, maladie).
+
 Charlotte est reconnue en tant que psychologue spécialiste en psychothérapie par la [FSP][fsp]. Elle est par ailleurs membre de l'[ASVALIS][asvalis] (Association Valaisanne d'Interventions Systémiques et de Thérapie Familiale), l'[ASTHEFIS][asthefis] (Association Suisse de Thérapies de Familles et Interventions Systémiques) et l’[APVs][apvs] (Association des psychologues du Valais).
 
 <div class='logos-membre' markdown='1'>

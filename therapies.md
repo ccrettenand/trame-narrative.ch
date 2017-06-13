@@ -2,6 +2,8 @@
 title: Therapies
 layout: default
 ---
+{% include banner.html title="Congé maternité" content="Pour des raisons de congé maternité et afin d'explorer de nouveaux défis professionnels, ma pratique clinique est désormais suspendue." %}
+
 {% for therapie in site.therapie %}
     {% if therapie.published != false %}
 {{ therapie.output }}

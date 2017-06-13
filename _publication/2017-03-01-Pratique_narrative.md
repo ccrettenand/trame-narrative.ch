@@ -5,4 +5,6 @@ edition: "Intereditions (Dunod)"
 year: 2017
 ---
 
-Parution prévue au printemps 2017.
+Pour plus d'informations ou le commander : [Editions Dunod][1].
+
+[1]: https://www.dunod.com/sciences-humaines-et-sociales/pratiques-approche-narrative

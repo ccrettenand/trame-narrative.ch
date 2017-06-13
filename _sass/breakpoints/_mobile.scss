@@ -339,25 +339,7 @@
         }
     }
 
-
-    #banner-5ans {
-        height: 200px;
-        background-size: cover;
-
-        header {
-            padding: 0 2em;
-        }
-
-        h1 {
-            font-size: 25px;
-        }
-
-        h2 {
-            font-size: 11px;
-        }
-
-        p a {
-            font-size: 18px;
-        }
+    .information-banner {
+        width: 100%;
     }
 }

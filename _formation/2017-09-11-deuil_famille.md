@@ -3,7 +3,7 @@ title: Le deuil au sein de la famille
 organisateur: Fondation As'trame
 lieu: Lausanne
 end_date: 1507075200
-formation_date: 11-12 septembre et 2-3 octobre 2017
+formation_date: 23-24 octobre et 27-28 novembre 2017
 inscription: http://www.astrame.ch/formations/formations-continues.html?L=0
 published: true
 ---

@@ -1,6 +1,7 @@
 ---
 ---
-<article class="formation" id="{{ page.title | slugify }}">
+{% capture formationtime %}{{page.end_date | date: '%s'}}{% endcapture %}
+<article class="formation" id="{{ page.title | slugify }}" data-date="{{ formationtime }}">
     <div class="row">
         <div class="8u 12u(mobile)">
             <header>

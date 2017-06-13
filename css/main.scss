@@ -917,56 +917,16 @@ div.modal {
     }
 }
 
-#banner-5ans {
-    background: url('../files/banner-5ans.jpg');
-    height: 318px;
-    cursor: pointer;
+.information-banner {
+    header { display: none; }
 
-    position: relative;
+    width: 80%;
+    margin: 0 auto 0.5em;
+    padding: 1em;
 
-    h1, h2 {
-        margin: 0;
-        padding: 0;
-        text-transform: none;
-        line-height: normal;
-    }
+    background-color: rgba(73, 2, 84, .1);
 
-    h1 {
-        font-family: 'Calligraffitti', cursive;
-        font-size: 84px;
-        font-weight: normal;
-        text-transform: none;
-        text-align: left;
-        color: #490254;
-    }
-
-    h2 {
-        font-size: 24px;
-        text-align: right;
-        color: black;
-        margin-top: 0.5em;
-    }
-
-    p {
-        position: absolute;
-        left: 1.2em;
-        bottom: 0.2em;
-        font-size: 32px;
-
-        a {
-            font-family: 'Loved by the King', cursive;
-            color: #490254;
-            border: none;
-        }
-    }
-
-    header {
-        width: 100%;
-        padding: 0 13em;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-    }
+    p { text-align: center; }
 }
 
 @import '../_sass/breakpoints/desktop';
