@@ -2,7 +2,7 @@
 title: Therapies
 layout: default
 ---
-{% include banner.html title="Congé maternité" content="Afin d'explorer de nouveaux défis professionnels, ma pratique clinique est désormais suspendue pour une durée indéterminée." %}
+{% include banner.html title="Congé maternité" content="Afin d'explorer de nouveaux défis professionnels, ma pratique clinique est désormais suspendue pour une durée indéterminée. Au plaisir de vous croiser dans d'autres contextes !" %}
 
 {% for therapie in site.therapie %}
     {% if therapie.published != false %}
