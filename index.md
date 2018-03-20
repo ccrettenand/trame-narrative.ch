@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-{% include banner.html title="Congé maternité" content="Afin d'explorer de nouveaux défis professionnels, ma pratique clinique est désormais suspendue pour une durée indéterminée." %}
+{% include banner.html title="Congé maternité" content="Afin d'explorer de nouveaux défis professionnels, ma pratique clinique est désormais suspendue pour une durée indéterminée. Au plaisir de vous croiser dans d'autres contextes !" %}
 
 Notre vie est composée d'histoires qu'on se raconte et que les autres racontent à notre propos. Il y a le récit de notre naissance, celui de nos années sur les bancs d'école, celui de notre première idylle amoureuse, ou encore celui de notre famille.
 
