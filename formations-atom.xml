@@ -21,7 +21,6 @@
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"/>
-   <updated>{{ post.formation_date | date_to_xmlschema }}</updated>
    <id>{{ post.id | prepend: site.baseurl | prepend: site.url }}</id>
    <content type="html">{{ post.content | textilize | xml_escape }}</content>
  </entry>
