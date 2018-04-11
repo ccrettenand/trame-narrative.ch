@@ -13,7 +13,7 @@ if [[ ! -x "$JEKYLL" ]]; then
     ${BUNDLE} install --path .bundle/packages
 fi
 
-COMMAND="bundle exec jekyll serve --livereload --baseurl ''"
+COMMAND="bundle exec jekyll serve --livereload --baseurl /"
 if [[ -n "$RBENV" ]]; then
     COMMAND="$RBENV exec $COMMAND"
 fi
